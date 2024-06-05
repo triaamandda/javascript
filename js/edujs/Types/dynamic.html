@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dynamic Types</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        let length = 16;          //number
+        let lastName = "Johnson"; //string
+
+        const x = {
+            firstName: "John",
+            lastName: "Doe"
+        };                        //object
+
+        document.getElementById("demo").innerHTML = 
+        typeof 16 + "<br>" +
+        typeof "Johnson" + "<br>" +
+        typeof ["John", "Doe"];
+    </script>
+</body>
+</html>
